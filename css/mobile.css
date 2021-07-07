@@ -1,0 +1,64 @@
+@media (max-width:1000px) {
+  .number-grid {
+    grid-template-columns: repeat(8, 1fr);
+  }
+
+  .input-field {
+    grid-template-columns: 2fr 1fr;
+  }
+}
+
+@media (max-width:900px) {
+  .number-grid {
+    grid-template-columns: repeat(7, 1fr);
+  }
+}
+
+@media (max-width:800px) {
+  .number-grid {
+    grid-template-columns: repeat(6, 1fr);
+
+  }
+
+  .input-field {
+    grid-template-columns: repeat(2, 1fr);
+
+  }
+}
+
+@media (max-width:700px) {
+  .number-grid {
+    grid-template-columns: repeat(5, 1fr);
+
+  }
+
+  .input-field {
+    grid-template-columns: 1fr;
+
+  }
+
+  .message {
+    grid-column: 1;
+  }
+}
+
+@media (max-width:600px) {
+  .number-grid {
+    grid-template-columns: repeat(4, 1fr);
+
+  }
+}
+
+@media (max-width:500px) {
+  .number-grid {
+    grid-template-columns: repeat(3, 1fr);
+
+  }
+}
+
+@media (max-width:400px) {
+  .number-grid {
+    grid-template-columns: repeat(2, 1fr);
+
+  }
+}
